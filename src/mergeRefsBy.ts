@@ -2,7 +2,7 @@ export const mergeRefsBy = (
   field: string,
   existing = [],
   incoming: any[],
-  { readField }
+  { readField }: { readField: Function }
 ) => {
   const merged = existing ? existing.slice(0) : []
   const existingIdSet = new Set(merged.map((x) => readField(field, x)))
