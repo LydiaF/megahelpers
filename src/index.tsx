@@ -6,4 +6,5 @@ export { useMop } from './useMop'
 export { useMopMany } from './useMopMany'
 export { useMyHook } from './useMyHook'
 export { usePreviousNonNullish } from './usePreviousNonNullish'
+export { useSelectIds } from './useSelectIds'
 
