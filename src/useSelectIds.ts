@@ -11,6 +11,6 @@ export const useSelectIds = (incoming, keyField = 'id') => {
   return {
     selectedToGo: state,
     itemOnClick,
-    objectDiff: [],
+    objectDiff: [true], // COMBAK
   }
 }
