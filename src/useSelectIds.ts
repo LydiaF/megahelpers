@@ -9,6 +9,7 @@ export const useSelectIds = (incoming, keyField = 'id') => {
       : setState((s) => [...s, object[keyField]])
 
   return {
+    deselected: [],
     selectedToGo: state,
     itemOnClick,
     objectDiff: [true], // COMBAK
