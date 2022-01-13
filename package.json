@@ -1,6 +1,6 @@
 {
   "name": "megahelpers",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "",
   "author": "LydiaF",
   "license": "MIT",
@@ -23,7 +23,9 @@
     "deploy": "gh-pages -d example/build"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "immer": "^9.0.12",
+    "lodash": "^4.17.21",
+    "use-immer": "^0.6.0"
   },
   "peerDependencies": {
     "react": "^16.9.0"
